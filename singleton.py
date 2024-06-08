@@ -14,3 +14,6 @@ class Singleton:
 
 class MyClass(Singleton):
     pass
+
+
+print(MyClass.instance() == MyClass.instance())  # True
